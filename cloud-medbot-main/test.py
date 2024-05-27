@@ -17,7 +17,7 @@ with open("cloud-medbot-main/intents.json) as file:
     data = json.load(file)
 
 # Load trained model
-model = keras.models.load_model('')
+model = keras.models.load_model('cloud-medbot-main/chat_model_2')
 
 # Load tokenizer object
 with open('tokenizer.pickle', 'rb') as handle:
