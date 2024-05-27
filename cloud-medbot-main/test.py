@@ -57,11 +57,11 @@ def get_response(user_input):
     tag = lbl_encoder.inverse_transform([np.argmax(result)])[0]
     probability = np.max(result)
     for i in data['intents']:
-        print(i['tags']," , ", i['tags'][0])
         if (len(i['tags'])==0):
             break
-        if i['tags'][0] == tag:
-            return {'response': i['answer'], 'score': str(probability)}
+        for j in i['tags']:
+            if j == tag:
+                return {'response': i['answer'], 'score': str(probability)}
     return {'response' : "Thank you for your question. I'm here to help with medical information, but it looks like I don't have the answer to your query right now. For more accurate and personalized medical advice, I recommend reaching out to a healthcare professional or your doctor." , 'score':str(0)}
 
 # Streamlit interface
