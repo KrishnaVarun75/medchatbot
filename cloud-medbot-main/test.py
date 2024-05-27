@@ -57,11 +57,11 @@ def get_response(user_input):
     tag = lbl_encoder.inverse_transform([np.argmax(result)])[0]
     probability = np.max(result)
     for i in data['intents']:
-        print(i['tags'])
-        if i['tags'][0] == tag:
-            print("yes")
-            is_available=True
-            break
+        if len(i['tags']>0):
+            if i['tags'][0] == tag:
+                print("yes")
+                is_available=True
+                break
         else:
             is_available=False
     if is_available :
