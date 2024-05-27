@@ -56,7 +56,7 @@ def get_response(user_input):
     result = model.predict(padded_sequence)
     tag = lbl_encoder.inverse_transform([np.argmax(result)])[0]
     probability = np.max(result)
-    print(i['tags])
+    print(i['tags'])
     for i in data['intents']:
         if i['tags'][0] == tag:
             is_available=True
