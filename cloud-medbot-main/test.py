@@ -57,10 +57,10 @@ def get_response(user_input):
     tag = lbl_encoder.inverse_transform([np.argmax(result)])[0]
     probability = np.max(result)
     for i in data['intents']:
-        if (len(i['tags'])>0):
-            if i['tags'][0] == tag:
-                return {'response': i['answer'], 'score': str(probability)}
-    return {'response' : "sorry i cant" , 'score':str(0)}
+        #if (len(i['tags'])>0):
+        if i['tags'][0] == tag:
+            return {'response': i['answer'], 'score': str(probability)}
+    #return {'response' : "sorry i cant" , 'score':str(0)}
 
 # Streamlit interface
 if "chat_messages" not in st.session_state:
