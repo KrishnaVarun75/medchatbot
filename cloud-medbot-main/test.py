@@ -13,7 +13,7 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 # Load necessary files
-with open("cloud-medbot-main/intents.json) as file:
+with open("cloud-medbot-main/intents.json") as file:
     data = json.load(file)
 
 # Load trained model
