@@ -61,7 +61,7 @@ def get_response(user_input):
             break
         if i['tags'][0] == tag:
             return {'response': i['answer'], 'score': str(probability)}
-    return {'response' : "sorry i cant" , 'score':str(0)}
+    return {'response' : "Thank you for your question. I'm here to help with medical information, but it looks like I don't have the answer to your query right now. For more accurate and personalized medical advice, I recommend reaching out to a healthcare professional or your doctor." , 'score':str(0)}
 
 # Streamlit interface
 if "chat_messages" not in st.session_state:
