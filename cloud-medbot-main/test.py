@@ -57,6 +57,7 @@ def get_response(user_input):
     tag = lbl_encoder.inverse_transform([np.argmax(result)])[0]
     probability = np.max(result)
     for i in data['intents']:
+        print(i['tags']," , " i['tags'][0])
         if (len(i['tags'])==0):
             break
         if i['tags'][0] == tag:
