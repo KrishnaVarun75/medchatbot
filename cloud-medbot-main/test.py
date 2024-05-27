@@ -13,11 +13,11 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 # Load necessary files
-with open("./intents.json") as file:
+with open("cloud-medbot-main/intents.json) as file:
     data = json.load(file)
 
 # Load trained model
-model = keras.models.load_model('chat_model_2')
+model = keras.models.load_model('')
 
 # Load tokenizer object
 with open('tokenizer.pickle', 'rb') as handle:
