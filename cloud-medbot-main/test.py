@@ -20,11 +20,11 @@ with open("cloud-medbot-main/intents.json") as file:
 model = keras.models.load_model('cloud-medbot-main/chat_model_2')
 
 # Load tokenizer object
-with open('tokenizer.pickle', 'rb') as handle:
+with open('cloud-medbot-main/tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 # Load label encoder object
-with open('label_encoder.pickle', 'rb') as enc:
+with open('cloud-medbot-main/label_encoder.pickle', 'rb') as enc:
     lbl_encoder = pickle.load(enc)
 
 # Parameters
