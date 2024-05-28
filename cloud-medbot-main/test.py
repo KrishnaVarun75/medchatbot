@@ -57,11 +57,9 @@ def get_response(user_input):
     tag = lbl_encoder.inverse_transform([np.argmax(result)])[0]
     probability = np.max(result)
     for i in data['intents']:
-        if (len(i['tags'])==0):
-            break
-        if i['tags'][0] == tag:
-            return {'response': i['answer'], 'score': str(probability)}
-    return {'response' : "Thank you for your question. I'm here to help with medical information, but it looks like I don't have the answer to your query right now. For more accurate and personalized medical advice, I recommend reaching out to a healthcare professional or your doctor." , 'score':str(0)}
+        if i['tags'] == tag:
+            return {'response': i['answer'][0], 'score': str(probability)}
+    return {'response' : "Thank you for your question. I'm here to help with medical information, but it looks like I don't have the answer to your query right now. For more accurate and personalized medical advice, I recommend reaching out to a healthcare professional or your doctor.", 'score':str(0)}
 
 # Streamlit interface
 if "chat_messages" not in st.session_state:
@@ -101,7 +99,6 @@ def chat_interface(chat_messages):
             response = get_response(user_input)
             bot_response = response['response']
             bot_score = float(response['score'])
-            # st.session_state.query=''
 
             if bot_score > 0.72:
                 chat_messages.append(('user', user_input))
@@ -117,7 +114,7 @@ def chat_interface(chat_messages):
     if st.button('Clear chat'):
         st.session_state["chat_messages"] = []
 
-    # display_chat(chat_messages)
+    display_chat(chat_messages)
 
 if __name__ == '__main__':
     st.title("MedBot: Your Virtual Health Assistant")
