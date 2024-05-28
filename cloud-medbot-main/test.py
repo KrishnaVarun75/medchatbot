@@ -120,5 +120,5 @@ def chat_interface(chat_messages):
     # display_chat(chat_messages)
 
 if __name__ == '__main__':
-    st.title("MedIQ ChatBot")
+    st.title("MedBot: Your Virtual Health Assistant")
     chat_interface(st.session_state["chat_messages"])
