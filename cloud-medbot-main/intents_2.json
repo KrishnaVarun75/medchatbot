@@ -1,0 +1,627 @@
+{
+  "intents": [
+    {
+      "tags": "greeting",
+      "question": ["Hi", "Hello", "Hey", "Greetings"],
+      "answer": ["Hello! How can I assist you with Medical Assistance today?"]
+    },
+    {
+      "tags": "cancer_general",
+      "question": [
+        "What is cancer?",
+        "Tell me about cancer",
+        "Explain cancer types",
+        "How does cancer develop?"
+      ],
+      "answer": [
+        "Cancer is a group of diseases characterized by the uncontrolled growth and spread of abnormal cells. It can develop in almost any organ or tissue of the body and has various types, each with its unique characteristics and treatment approaches."
+      ]
+    },
+    {
+      "tags": "cancer_types",
+      "question": [
+        "Tell me about lung cancer",
+        "What are the types of breast cancer?",
+        "Explain prostate cancer",
+        "What are the subtypes of leukemia?",
+        "Different types of skin cancer?"
+      ],
+      "answer": [
+        "Cancer types include lung cancer, breast cancer, prostate cancer, leukemia, skin cancer, among others. Each type has specific subtypes and characteristics."
+      ]
+    },
+    {
+      "tags": "cancer_symptoms",
+      "question": [
+        "Persistent coughing, chest pain, shortness of breath, and coughing up blood.",
+        "Lump or thickening in the breast or underarm area, changes in breast size or shape, nipple changes or discharge.",
+        "Difficulty urinating, weak or interrupted urine flow, blood in the urine or semen, erectile dysfunction, pain in the hips, back, or chest.",
+        "Fatigue, frequent infections, easy bruising or bleeding, swollen lymph nodes, bone pain.",
+        "Changes in the size, shape, or color of a mole or other skin lesion, a sore that does not heal, itching, tenderness, or pain in the affected area."
+      ],
+      "answer": [
+        "It seems like you may be experiencing symptoms related to cancer. These symptoms can be associated with different types of cancer, including lung cancer, breast cancer, prostate cancer, leukemia, and skin cancer. Understanding these symptoms is crucial for early detection and treatment."
+      ]
+    },
+    {
+      "tags": "cancer_prevention",
+      "question": [
+        "How can I prevent cancer?",
+        "What are the ways to reduce the risk of cancer?",
+        "Are there any lifestyle changes to lower cancer risk?",
+        "How can I lower my chances of getting cancer?",
+        "What are the preventive measures against cancer?"
+      ],
+      "answer": [
+        "Preventing cancer involves making healthy lifestyle choices and taking proactive measures. Here are some key prevention methods:\n1. Maintain a healthy weight and adopt a balanced diet rich in fruits, vegetables, and whole grains.\n2. Avoid tobacco and limit alcohol consumption.\n3. Protect yourself from the sun and avoid excessive exposure to UV radiation.\n4. Get regular exercise and stay physically active.\n5. Follow recommended cancer screening guidelines and get vaccinated against viruses associated with cancer risk, such as HPV."
+      ]
+    },
+    {
+      "tags": "diabetes_general",
+      "question": [
+        "What is diabetes?",
+        "Tell me about diabetes",
+        "Explain diabetes types",
+        "How does diabetes develop?"
+      ],
+      "answer": [
+        "Diabetes is a chronic disease characterized by high levels of sugar (glucose) in the blood. It occurs when the body doesn't produce enough insulin or doesn't use it effectively."
+      ]
+    },
+    {
+      "tags": "diabetes_types",
+      "question": [
+        "Tell me about type 1 diabetes",
+        "What are the types of diabetes?",
+        "Explain type 2 diabetes",
+        "What are the subtypes of diabetes?",
+        "Different types of diabetes?"
+      ],
+      "answer": [
+        "Diabetes types include type 1 diabetes, type 2 diabetes, gestational diabetes, and others. Each type has specific characteristics and treatment approaches."
+      ]
+    },
+    {
+      "tags": "diabetes_symptoms",
+      "question": [
+        "Increased thirst, frequent urination, extreme hunger, unexplained weight loss, fatigue, irritability.",
+        "Increased thirst, frequent urination, increased hunger, fatigue, blurred vision, slow-healing sores or frequent infections.",
+        "Increased thirst, frequent urination, fatigue, nausea, blurred vision, frequent infections.",
+        "Frequent urination, increased thirst, extreme hunger, unexplained weight loss, fatigue, blurred vision."
+      ],
+      "answer": [
+        "It seems like you may be experiencing symptoms related to diabetes. These symptoms can vary depending on the type of diabetes you have, whether it's type 1, type 2, or gestational diabetes. It's essential to monitor these symptoms and consult with a healthcare professional for proper diagnosis and management."
+      ]
+    },
+
+	{
+      "tags": "diabetes_prevention",
+      "question": [
+        "How can I prevent diabetes?",
+        "What are the ways to reduce the risk of diabetes?",
+        "Are there any lifestyle changes to lower diabetes risk?",
+        "How can I lower my chances of getting diabetes?",
+        "What are the preventive measures against diabetes?"
+      ],
+      "answer": [
+        "Preventing diabetes involves making healthy lifestyle choices and taking proactive measures. Here are some key prevention methods:\n1. Maintain a healthy weight and adopt a balanced diet low in processed foods and added sugars.\n2. Get regular physical activity and exercise.\n3. Monitor your blood sugar levels regularly, especially if you have risk factors for diabetes.\n4. Avoid smoking and limit alcohol consumption.\n5. Follow medical advice and take prescribed medications if you have prediabetes or are at high risk for diabetes."
+      ]
+    },
+    {
+      "tags": "alzheimers_general",
+      "question": [
+        "What is Alzheimer's disease?",
+        "Tell me about Alzheimer's",
+        "Explain Alzheimer's types",
+        "How does Alzheimer's develop?"
+      ],
+      "answer": [
+        "Alzheimer's disease is a progressive disorder that causes brain cells to degenerate and die, resulting in memory loss and decline in cognitive abilities."
+      ]
+    },
+    {
+      "tags": "alzheimers_types",
+      "question": [
+        "Tell me about early-onset Alzheimer's",
+        "What are the types of Alzheimer's?",
+        "Explain late-onset Alzheimer's",
+        "What are the subtypes of Alzheimer's?",
+        "Different types of Alzheimer's disease?"
+      ],
+      "answer": [
+        "Alzheimer's disease may be categorized based on age of onset, such as early-onset Alzheimer's and late-onset Alzheimer's. It can also be classified based on the progression and symptoms."
+      ]
+    },
+    {
+      "tags": "alzheimers_symptoms",
+      "question": [
+        "Memory loss - Forgetting recently learned information or important dates, relying on memory aids or family members for things they used to handle on their own.",
+        "Confusion - Disorientation in time and place, not recognizing familiar faces or places, forgetting the purpose of familiar objects.",
+        "Difficulty with problem-solving or completing familiar tasks - Struggling to follow a familiar recipe, difficulty managing bills or following a plan.",
+        "Changes in mood or personality - Becoming suspicious, depressed, fearful, or anxious, experiencing sudden mood swings or unexplained changes in behavior.",
+        "Withdrawal from social activities - Avoiding social interactions or neglecting hobbies and activities they once enjoyed, preferring to be alone or experiencing difficulty in social situations."
+],
+      "answer": [
+        "It seems like you may be experiencing symptoms related to Alzheimer's disease. These symptoms typically include memory loss, confusion, difficulty with problem-solving or completing familiar tasks, changes in mood or personality, and withdrawal from social activities. Early detection and management are crucial for improving the quality of life of individuals with Alzheimer's."
+      ]
+    },
+	{
+      "tags": "alzheimers_prevention",
+      "question": [
+        "How can I prevent Alzheimer's disease?",
+        "What are the ways to reduce the risk of Alzheimer's?",
+        "Are there any lifestyle changes to lower Alzheimer's risk?",
+        "How can I lower my chances of getting Alzheimer's?",
+        "What are the preventive measures against Alzheimer's?"
+      ],
+      "answer": [
+        "While there's no proven way to prevent Alzheimer's disease, you can reduce your risk through healthy lifestyle choices and brain-healthy habits. Here are some key prevention methods:\n1. Stay mentally and socially active by engaging in stimulating activities and maintaining social connections.\n2. Follow a heart-healthy diet rich in fruits, vegetables, and omega-3 fatty acids.\n3. Exercise regularly, including both aerobic and strength training.\n4. Get quality sleep and manage stress effectively.\n5. Stay mentally and emotionally resilient, and seek help for depression or anxiety if needed."
+      ]
+    },
+    {
+      "tags": "hypertension_general",
+      "question": [
+        "What is hypertension?",
+        "Tell me about hypertension",
+        "Explain high blood pressure",
+        "How does hypertension develop?"
+      ],
+      "answer": [
+        "Hypertension, or high blood pressure, is a condition where the force of the blood against the artery walls is consistently too high. It can lead to serious health problems if left untreated."
+      ]
+    },
+    {
+      "tags": "hypertension_types",
+      "question": [
+        "Tell me about primary hypertension",
+        "What are the types of hypertension?",
+        "Explain secondary hypertension",
+        "What are the subtypes of hypertension?",
+        "Different types of high blood pressure?"
+      ],
+      "answer": [
+        "Hypertension may be classified as primary hypertension, which has no identifiable cause, and secondary hypertension, which is caused by an underlying condition such as kidney disease or hormonal disorders."
+      ]
+    },
+    {
+      "tags": "hypertension_symptoms",
+      "question": [
+          "Severe headache - Intense and persistent headaches, especially at the back of the head or in the morning upon waking.",
+          "Chest pain - Tightness, discomfort, or pressure in the chest area, which may radiate to the neck, jaw, back, or arms.",
+          "Difficulty breathing - Shortness of breath, especially during physical exertion or when lying flat, which may indicate heart or lung complications."
+  ],
+      "answer": [
+        "Hypertension is often asymptomatic, but severe cases or hypertensive crises may present symptoms such as severe headache, chest pain, difficulty breathing, visual changes, and nosebleeds."
+      ]
+    },
+	{
+      "tags": "hypertension_prevention",
+      "question": [
+        "How can I prevent hypertension?",
+        "What are the ways to reduce the risk of high blood pressure?",
+        "Are there any lifestyle changes to lower hypertension risk?",
+        "How can I lower my chances of getting hypertension?",
+        "What are the preventive measures against hypertension?"
+      ],
+      "answer": [
+        "Preventing hypertension involves adopting a healthy lifestyle and making smart choices. Here are some key prevention methods:\n1. Maintain a healthy weight and follow a balanced diet low in sodium, saturated fats, and cholesterol.\n2. Limit alcohol consumption and avoid excessive drinking.\n3. Exercise regularly and stay physically active.\n4. Manage stress through relaxation techniques and coping mechanisms.\n5. Monitor your blood pressure regularly and follow medical advice for its management if needed."
+      ]
+    },
+    {
+      "tags": "stroke_general",
+      "question": [
+        "What is a stroke?",
+        "Tell me about strokes",
+        "Explain stroke types",
+        "How does a stroke develop?"
+      ],
+      "answer": [
+        "A stroke occurs when the blood supply to part of the brain is interrupted or reduced, depriving brain tissue of oxygen and nutrients. This can result in brain damage and potentially permanent disability or death."
+      ]
+    },
+    {
+      "tags": "stroke_types",
+      "question": [
+        "Tell me about ischemic stroke",
+        "What are the types of strokes?",
+        "Explain hemorrhagic stroke",
+        "What are the subtypes of stroke?",
+        "Different types of brain strokes?"
+      ],
+      "answer": [
+        "Strokes may be classified as ischemic stroke, caused by a blockage in a blood vessel supplying the brain, or hemorrhagic stroke, caused by bleeding in the brain. Each type has specific characteristics and treatment approaches."
+      ]
+    },
+    {
+      "tags": "stroke_symptoms",
+      "question": [
+        "Sudden numbness or weakness of the face, arm, or leg, especially on one side of the body - This unilateral weakness or paralysis is a hallmark symptom of stroke.",
+        "Difficulty understanding speech or speaking - Stroke can cause slurred speech or difficulty in finding the right words.",
+        "Loss of balance or coordination - Stroke may lead to sudden dizziness, loss of balance, or difficulty walking."
+  ],
+      "answer": [
+        "Symptoms of a stroke may include sudden numbness or weakness of the face, arm, or leg, especially on one side of the body, confusion, trouble speaking or understanding speech, difficulty walking, dizziness, and severe headache."
+      ]
+    },
+	{
+      "tags": "stroke_prevention",
+      "question": [
+        "How can I prevent strokes?",
+        "What are the ways to reduce the risk of stroke?",
+        "Are there any lifestyle changes to lower stroke risk?",
+        "How can I lower my chances of getting a stroke?",
+        "What are the preventive measures against strokes?"
+      ],
+      "answer": [
+        "Preventing strokes involves making healthy lifestyle choices and managing underlying health conditions. Here are some key prevention methods:\n1. Control high blood pressure, cholesterol levels, and diabetes through medication and lifestyle changes.\n2. Maintain a healthy weight and follow a balanced diet low in saturated fats, trans fats, and cholesterol.\n3. Exercise regularly and stay physically active.\n4. Avoid smoking and limit alcohol consumption.\n5. Monitor your health regularly and seek medical attention for any warning signs or risk factors associated with strokes."
+      ]
+    },
+    {
+      "tags": "send_off",
+      "question": ["Thank you", "Goodbye", "See you later", "Farewell"],
+      "answer": ["You're welcome! If you have more cybersecurity questions, feel free to ask. Goodbye!"]
+    },
+
+    {
+      "tags":"age",
+      "question": ["how old","how old are you?","what is your age","how old are you","age?"],
+      "answer":["I get reborn after every compilation","hey!","my owners are averagely 20 years!"]
+     },
+     {
+      "tags":"name",
+      "question": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+      "answer":["you can call me Medbot!","i am Medbot!","i am Medbot your medical assistant"]
+     },
+     {
+      "tags":"common cold symptoms",
+      "question": ["Runny or stuffy nose",
+      "Sore throat",
+      "Cough",
+      "Congestion",
+      "Slight body aches or a mild headache",
+      "Sneezing",
+      "Low-grade fever",
+      "Generally feeling unwell (malaise)"],
+      "answer":["It seems that you are suffering from common cold"]
+     },
+     {
+      "tags":"fever symptoms",
+      "question":["Sweating",
+      "Chills and shivering",
+      "Headache",
+      "Muscle aches",
+      "Loss of appetite",
+      "Irritability",
+      "Dehydration",
+      "General weakness"],
+      "answer":["It seems that you are suffering from fever"]
+     },
+     {
+      "tags":"Diabetes symptoms",
+      "question":["increased hunger",
+      "increased thirst",
+      "weight loss",
+      "frequent urination",
+      "blurry vision",
+      "extreme fatigue"],
+      "answer":["It seems that you are suffering from Diabetes"]
+     },
+     {
+      "tags":"Depression symptoms",
+      "question":["Hopeless outlook",
+      "Lost interest",
+      "Increased fatigue",
+      "sleep problem",
+      "Anxiety",
+      "change in weight",
+      "Looking at death"],
+      "answer":["It seem that you are suffering from depression"]
+     },
+     {
+      "tags":"Asthma symptoms",
+      "question":["coughing",
+      "tightness in the chest",
+      "shortness of breath",
+      "difficulty talking",
+      "panic",
+      "fatigue"],
+      "answer":["It seem that you are suffering from Asthma"]
+     },
+     {
+      "tags":"common cold prevention",
+      "question":["What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?"],
+      "answer":["medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+     },
+     {
+      "tags":"fever prevention",
+      "question":["What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?"],
+      "answer":["medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+     },
+     {
+      "tags":"diabetes prevention",
+      "question":["What medicines can I buy to help me with my diabetes?","tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?"],
+      "answer":["medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"]
+     },
+     {
+      "tags":"depression prevention",
+      "question":["What medicines can I buy to help me with my depression?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?"],
+      "answer":["medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
+     },
+     {
+      "tags":"asthma prevention",
+      "question":["What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?"],
+      "answer":["medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"]
+     },
+     {
+      "tags":"Consultation",
+      "question": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation"],
+      "answer":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
+     },
+
+     {"tags": "Cuts",
+      "question": ["What to do if Cuts?", "How to cure Cuts?", "Which medicine to apply for Cuts?", "what to apply on cuts?", "Cuts"],
+      "answer": ["Wash the cut properly to prevent infection and stop the bleeding by applying pressure for 1-2minutes until bleeding stops. Apply Petroleum Jelly to make sure that the wound is moist for quick healing. Finally cover the cut with a sterile bandage. Pain relievers such as acetaminophen can be applied."]
+         
+        },
+
+        {"tags": "Abrasions",
+         "question": ["how do you treat abrasions?", "Do Abrasions cause scars?", "Abrasions", "what to do if abrasions?", "Which medicine to apply for abrasions?", "How to cure abrasions?"],
+         "answer": ["Begin with washed hands.Gently clean the area with cool to lukewarm water and mild soap. Remove dirt or other particles from the wound using sterilized tweezers.For a mild scrape that’s not bleeding, leave the wound uncovered.If the wound is bleeding, use a clean cloth or bandage, and apply gentle pressure to the area to stop any bleeding.Cover a wound that bled with a thin layer of topical antibiotic ointment, like Bacitracin, or a sterile moisture barrier ointment, like Aquaphor. Cover it with a clean bandage or gauze. Gently clean the wound and change the ointment and bandage once per day.Watch the area for signs of infection, like pain or redness and swelling. See your doctor if you suspect infection."]
+         
+        },
+
+        {"tags": "stings",
+         "question": ["How do you treat Sting?", "Stings", "What to do if you get a sting?", "Which medicine to apply if sting?"],
+         "answer": ["Remove any stingers immediately. Some experts recommend scraping out the stinger with a credit card. Applying ice to the site may provide some mild relief. Apply ice for 20 minutes once every hour as needed. Wrap the ice in a towel or keep a cloth between the ice and skin to keep from freezing the skin. Taking an antihistamine such as diphenhydramine (Benadryl) or a nonsedating one such as loratadine (Claritin) will help with itching and swelling. Take acetaminophen (Tylenol) or ibuprofen (Motrin)for pain relief as needed. Wash the sting site with soap and water. Placing hydrocortisone cream on the sting can help relieve redness, itching, and swelling."]
+         
+        },
+
+        {"tags": "Splinter",
+         "question": ["How to remove Splinters", "How to cure Splinters?", "What to do if I have splinters?", "How do you bring a splinter to the surface?"],
+         "answer": ["1. SOAK IT IN EPSOM SALTS. Dissolve a cup of the salts into a warm bath and soak whatever part of the body has the splinter. Failing that, you can also put some of the salts onto a bandage pad and leave it covered for a day; this will eventually help bring the splinter to the surface. 2. VINEGAR OR OIL. Another simple way to draw out that stubborn splinter is to soak the affected area in oil (olive or corn) or white vinegar. Just pour some in a bowl and soak the area for around 20 to 30 minutes,"]
+         
+        },
+
+        {"tags": "Sprains",
+         "question": ["How do you treat a sprain?", "what to do if i get a sprain?", "Which cream to apply if i get a sprain?", "Which medicine to apply if I get a sprain?"],
+         "answer": ["Use an ice pack or ice slush bath immediately for 15 to 20 minutes and repeat every two to three hours while you're awake. To help stop swelling, compress the ankle with an elastic bandage until the swelling stops. In most cases, pain relievers — such as ibuprofen (Advil, Motrin IB, others) or naproxen sodium (Aleve, others) or acetaminophen (Tylenol, others) are enough to manage the pain of a sprained ankle."]
+         
+        },
+
+        {"tags": "Strains",
+         "question": ["How do you treat a strain?", "what to do if i get a strain?", "Which cream to apply if i get a strain?", "Which medicine to apply if I get a strain?", "How do you diagnose a strain?", "Is heat or ice better for a pulled muscle?"],
+         "answer": ["Rest,Ice,Compression and Elevation can be used to cure strains. Avoid using your muscle for a few days, especially if movement causes an increase in pain and also Apply ice immediately after injuring your muscle. This will minimize swelling. Don’t put ice directly on your skin. Use an ice pack or wrap ice in a towel. To reduce swelling, wrap the affected area with an elastic bandage until swelling comes down."]
+         
+        },
+
+        {"tags": "Fever",
+         "question": ["How do you treat a mild Fever?", "what to do if i get a mild fever?", "Which medicine to take if I get a mild fever?", "fever"],
+         "answer": ["To treat a fever at home: 1)Drink plenty of fluids to stay hydrated. 2)Dress in lightweight clothing. 3)Use a light blanket if you feel chilled, until the chills end. 4)Take acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin IB, others). 5) Get medical help if the fever lasts more than five days in a row."]
+         
+        },
+
+        {"tags": "Nasal Congestion",
+         "question": ["How do you treat nasal Congestion?", "what to do if i get a nasal congestion?", "Which medicine to take if I have a nasal congestion?", "what to do if i have a blocked nose?", "How do you treat a blocked nose?", "How long does nasal congestion last?"],
+         "answer": ["When you’re stuffed up, focus on keeping your nasal passages and sinuses moist. To keep your nasal passages moist, you can: 1)Use a humidifier or vaporizer. 2)Drink lots of fluids. This will thin out your mucus, which could help prevent blocked sinuses. 3)Place a warm, wet towel on your face. It may relieve discomfort and open your nasal passages."]
+         
+        },
+
+        {"tags": "Cough",
+         "question": ["How to cure cough?","How do you treat cough?", "what to do if i get a cough?", "Which medicine to take if I get cough?", "How do you get rid of cough?"],
+         "answer": ["1) Honey:- Use honey to treat a cough, mix 2 teaspoons (tsp) with warm water or an herbal tea. Drink this mixture once or twice a day. Do not give honey to children under 1 year of age. 2) Ginger:- Brew up a soothing ginger tea by adding 20–40 grams (g) of fresh ginger slices to a cup of hot water. Allow to steep for a few minutes before drinking. Add honey or lemon juice to improve the taste and further soothe a cough. 3) Fluids:- Staying hydrated is vital for those with a cough or cold. Research indicates that drinking liquids at room temperature can alleviate a cough, runny nose, and sneezing."]
+         
+        },
+
+        {"tags": "Sore Throat",
+         "question": ["How do you treat sore throat?", "what to do if i get a sore throat?", "Which medicine to take if I get a sore throat?", "How to cure sore throat?"],
+         "answer": ["1) Make sure you get plenty of rest and drink a lot of fluids. 2)Inhale steam,Run hot water in a sink.Drape a towel over you to trap the steam, and have the person lean over the sink with the water running. Tell him to breathe deeply through his mouth and nose for 5 to 10 minutes. Repeat several times a day. 3)Have him sip chicken broth or warm tea with honey. Don’t give honey to a child under 12 months of age."]
+         
+        },
+
+        {"tags": "Gastrointestinal problems",
+         "question": ["How do you treat gas problems?", "what to do if i have Gastrointestinal problems?", "Which medicine to take if I get gas problem?", "How to cure Gas problems?"],
+         "answer": ["1) Replenish body fluids 2)Do not take antidiarrheal drugs or laxatives or pain medication, unless specified by a medical professional.3)Taking antacids may help, per recommendation of a healthcare professional. 4)If prone to frequent heartburns, seek medical help. 5)Taking meals that are not spicy regularly, can relieve ulcer pains. 6)Seek medical help, if conditions persist or continue to worsen"]
+         
+        },
+
+        {"tags": "Skin problems",
+         "question": ["How do you treat Skin problems?", "what to do if i get a skin allergy?", "Which medicine to take if I get a skin allergy?", "How to cure skin allergy?"],
+         "answer": ["1)Hydrocortisone cream. 2)Ointments like calamine lotion. 3)Antihistamines. 4)Cold compresses. 5)Oatmeal baths. 6)Talk to your doctor about what's best for your specific rash."]
+         
+        },
+
+        {"tags": "Abdonominal Pain",
+         "question": ["How do you treat Abdonominal Pain?", "what to do if i get a Abdonominal Pain?", "Which medicine to take if I get a Abdonominal Pain?", "How to cure Abdonominal Pain?"],
+         "answer": ["1)Provide clear fluids to sip, such as water, broth, or fruit juice diluted with water. 2)Serve bland foods, such as saltine crackers, plain bread, dry toast, rice, gelatin, or applesauce. 3)Avoid spicy or greasy foods and caffeinated or carbonated drinks until 48 hours after all symptoms have gone away. "]
+         
+        },
+
+        {"tags": "Bruises",
+         "question": ["How do you treat Bruises?", "what to do if i get a Bruise?", "Which medicine to take if I get a Bruise?", "How to cure Bruises?"],
+         "answer": ["1)Ice the bruise with an ice pack wrapped in a towel. 2)Leave it in place for 10 to 20 minutes. 3)Repeat several times a day for a day or two as needed. 4)Compress the bruised area if it is swelling, using an elastic bandage. "]
+         
+        },
+
+        {"tags": "Broken Toe",
+         "question": ["How do you treat a Broken Toe?", "what to do if i get a Broken Toe?", "Which medicine to take if I get a Broken Toe?", "How to cure Broken Toe?"],
+         "answer": ["1)To help decrease pain and swelling in a broken toe, elevate the foot, ice the injury, and stay off the foot. 2)Depending on the severity of the fracture, the toe may need to be put back into place (reduced), and some compound toe fractures may require surgery.3) Most broken toes heal without complications in six weeks."]
+         
+        },
+
+        {"tags": "Choking",
+         "question": ["How do you treat Choking?", "what to do if i get a Choke?", "Which medicine to take if I get Choked?", "How to cure Choking?"],
+         "answer": ["1)Encourage them to keep coughing to try to clear the blockage. 2)Ask them to try to spit out the object if it's in their mouth. 3)If coughing doesn't work, start back blows and Abdonominal thrusts"]
+         
+        },
+
+        {"tags": "Wound",
+         "question": ["How do you treat a wound?", "what to do if i get a Wound?", "Which medicine to take if I get wounded?", "How to cure a wound?"],
+         "answer": ["1)Rinse the cut or wound with water and apply pressure with sterile gauze, a bandage, or a clean cloth. 2)If blood soaks through the bandage, place another bandage on top of the first and keep applying pressure. 3)Raise the injured body part to slow bleeding. 4)When bleeding stops, cover the wound with a new, clean bandage."]
+         
+        },
+
+        {"tags": "Diarrhea",
+         "question": ["How do you treat Diarrhea?", "what to do if i get Diarrhea?", "Which medicine to take if I get Diarrhea?", "How to cure Diarrhea?"],
+         "answer": ["1)Hydrating the body is essential for recovering from diarrhea.This causes the body to lose electrolytes such as sodium and chloride. 2)It is highly recommended to avoid dairy products, as they may worsen diarrhea in some people. 3)However, if diarrhea lasts for more than 2 days, seek medical advice to avoid complications."]
+         
+        },
+
+        {"tags": "Frost bite",
+         "question": ["How do you treat a Frost bite?", "what to do if i get a Frost bite?", "Which medicine to take if I get a Frost bite?", "How to cure Frost bite?"],
+         "answer": ["1)Get out of the cold. Once you're in a warm space, remove wet clothes and wrap up in a warm blanket. 2) Gently rewarm frostbitten areas. Soak frostbitten fingers, toes or other extremities in warm water — 105 to 110 F (about 40 to 43 C). If a thermometer isn't available, test the water by placing an uninjured hand or elbow in it — it should feel very warm, not hot. Soak for 20 to 30 minutes or until the skin becomes its normal color or loses its numbness. For the face or ears, apply a warm, wet washcloth. "]
+         
+        },
+
+        {"tags": "Heat Exhaustion",
+         "question": ["How do you treat Heat Exhaustion?", "what to do if i feel Exhausted due to heat?", "Which medicine to take if I get Exhausted?", "How to cure Heat Exhaustion?"],
+         "answer": ["1)Move the person out of the heat and into a shady or air-conditioned place. Lay the person down and elevate the legs and feet slightly. Remove tight or heavy clothing. Have the person drink cool water or other nonalcoholic beverage without caffeine "]
+         
+        },
+
+        {"tags": "Heat Stroke",
+         "question": ["How do you treat Heat Stroke?", "what to do if i get a Heat Stroke?", "Which medicine to take if I get Stroke?", "How to cure a Heat Stroke?"],
+         "answer": ["1)Cool the person's entire body by sponging or spraying cold water, and fan the person to help lower the person's body temperature. Watch for signs of rapidly progressing heatstroke, such as seizure, unconsciousness for longer than a few seconds, and moderate to severe difficulty breathing. "]
+         
+        },
+
+        {"tags": "Insect Bites",
+         "question": ["How do you treat a Insect Bite?", "what to do if a insect bites me?", "Which medicine to take if I get bitten by a insect?", "How to cure insect bite?"],
+         "answer": ["1) Wash the affected area with soap and water. Apply a cold compress (such as a flannel or cloth cooled with cold water) or an ice pack to any swelling for at least 10 minutes. Raise or elevate the affected area if possible, as this can help reduce swelling. "]
+         
+        },
+
+        {"tags": "nose bleed",
+         "question": ["How do you treat a bleeding nose?", "what to do if i my nose is bleeding?", "Which medicine to take if I get nose bleed?", "How to cure nose bleeding?"],
+         "answer": ["1) Wash the affected area with soap and water. Apply a cold compress (such as a flannel or cloth cooled with cold water) or an ice pack to any swelling for at least 10 minutes. Raise or elevate the affected area if possible, as this can help reduce swelling "]
+         
+        },
+
+        {"tags": "Pulled Muscle",
+         "question": ["How do you treat a Pulled Muscle?", "what to do if my muscle is pulled?", "Which medicine to take if I got pulled muscle?", "How to cure a pulled muscle?"],
+         "answer": ["1) Apply ice for 10 to 15 minutes every 1 hour for the first day and every 3 to 4 hours after that. Use ice for the first 3 days. After 3 days, either heat or ice may be helpful if you still have pain. Rest the pulled muscle for at least a day. "]
+         
+        },
+
+        {"tags": "Rectal bleeding",
+         "question": ["How do you treat Rectal Bleeding?", "what to do if i get a Rectal Bleeding?", "Which medicine to take if I get Rectal Bleeding?", "How to cure Rectal Bleeding?"],
+         "answer": ["1) For minimal bleeding due to hemorrhoids or rectal fissures, physicians will usually direct home treatment with lots of water, ice packs and possibly over the counter ointments or suppositories to create movement in the bowels or to soften the stool. Emergency treatment might include an IV in the case of dehydration. "]
+         
+        },
+
+        {"tags": "Sun Burn",
+         "question": ["How do you treat Sun Burn?", "what to do if i get a Sun Burn?", "Which medicine to take if I get Sun Burn?", "How to cure a Sun Burn?"],
+         "answer": ["1) Cool the skin, 2) Drink water to prevent dehydration., 3) Take a pain reliever such as ibuprofen (Advil, Motrin IB, others) to help with the discomfort and swelling of sunburn. "]
+         
+        },
+
+        {"tags": "Testicle Pain",
+         "question": ["How do you treat Testicle Pain?", "what to do if i get a Testicle Pain?", "Which medicine to take if I get a Testicle Pain?", "How to cure Testicle Pain?"],
+         "answer": ["1) For pain, take over-the-counter medication such as acetaminophen (Tylenol) or ibuprofen (Advil, Motrin). For swelling, apply an ice pack to the scrotum. "]
+         
+        },
+
+        {"tags": "Vertigo",
+         "question": ["How do you treat a Vertigo?", "what to do if i get a Vertigo?", "Which medicine to take if I get Vertigo?", "How to cure a Vertigo?"],
+         "answer": ["1) Relieve or Prevent Dizziness. Have the person lie down and rest, 2) Keep the Person Safe. Help the person avoid falls, 3) Call a Health Care Provider. Any new signs and symptoms of vertigo should be checked by a health care provider."]
+         
+        },
+
+        {"tags": "Normal Bleeding",
+         "question": ["How do you treat bleeding?", "what to do if i get a Bleeding?", "Which medicine to take if I get bleeding?", "How to cure Bleeding?"],
+         "answer": ["1) First aid actions to manage external bleeding include applying direct pressure to the wound, maintaining the pressure using pads and bandages, and, raising the injured limb above the level of the heart if possible. "]
+         
+        },
+
+        {"tags": "Eye Injury",
+         "question": ["How do you treat an eye Injury?", "what to do if i get a eye Injury?", "Which medicine to take if I injured my eye?", "How to cure injured eye?"],
+         "answer": ["1) DO NOT rub the eye, 2)Blink several times and allow tears to flush out the particle, 3) Lift the upper eyelid over the lashes of your lower lid to let the eyelashes try to brush the particle out., 4) Use eyewash, saline solution or running tap water to flush the eye out "]
+         
+        },
+
+        {"tags": "Chemical Burn",
+         "question": ["How do you treat a chemical burn?", "what to do if i get a Chemical Burn?", "Which medicine to take if I get burn due to chemicals?", "How to cure Chemical Burn?"],
+         "answer": ["1) rinsed with water · Flush the area for at least 20 minutes. · As you flush the area, take off any clothing or jewellery that has the chemical on it ,2) Don't use a strong stream of water, if possible., 3)Don't try to neutralize the burn with acid or alkali. This could cause a chemical reaction that worsens the burn, 4) Don't put antibiotic ointment on the burn. "]
+         
+        },
+
+        {"tags": "Poison",
+         "question": ["How do you treat a Poison?", "what to do if i get Poison?", "Which medicine to take if I am poisoned?", "How to cure Poisoning?"],
+         "answer": ["1) Get to fresh air right away. Call the toll-free Poison Help line (1-800-222-1222), which connects you to your local poison center, 2) Take off any clothing the poison touched. Rinse skin with running water for 15 to 20 minutes. Call the toll-free Poison Help line (1-800-222-1222), which connects you to your local poison center.,3) If the person swallowed the wrong medicine or too much medicine: Call Poison Help (1-800-222-1222), which connects you to your local poison center.,4) Every poisoning is different. "]
+         
+        },
+
+        {"tags": "Teeth",
+         "question": ["How do you treat broken Teeth ?", "what to do if my Teeth got broken?", "Which medicine to take if I get broken teeth?", "cure broken teeth?"],
+         "answer": ["1) lick the tooth clean if it's dirty, or rinse it in water. put it back into position (adult teeth only); never try to re-insert a baby tooth (see below) bite on a handkerchief to hold the tooth in place. go to see a dentist as an emergency "]
+         
+        },
+
+        {"tags": "seizure",
+         "question": ["How do you treat a seizure?", "what to do if i get a seizure?", "Which medicine to take if I get seizure?", "How to cure seizure?"],
+         "answer": ["1) Stay calm and remain with the person, 2) If they have food or fluid in their mouth, roll them onto their side immediately, 3) Place something soft under their head and loosen any tight clothing. "]
+         
+        },
+
+        {"tags": "Head Injury",
+         "question": ["How do you treat a head Injury?", "what to do if i get a Head Injury?", "Which medicine to take if I get injured in the head?", "How to cure Head Injury?"],
+         "answer": ["1) Apply firm pressure to the wound with sterile gauze or a clean cloth. But don't apply direct pressure to the wound if you suspect a skull fracture. "]
+         
+        },
+
+        {"tags": "Fainting",
+         "question": ["How do you treat Faint?", "what to do if i feel like Fainting?", "Which medicine to take if I get a Faint?", "How to cure Fainting?"],
+         "answer": ["1) Lie down or sit down. To reduce the chance of fainting again, don't get up too quickly, 2) Place your head between your knees if you sit down, 3)Position the person on his or her back. If there are no injuries and the person is breathing, raise the person's legs above heart level — about 12 inches (30 centimeters) — if possible. Loosen belts, collars or other constrictive clothing. "]
+         
+        },
+
+        {"tags": "Headache",
+         "question": ["How do you treat a mild Headache?", "what to do if i get a mild Headache?", "Which medicine to take if I have a mild headache?", "How to cure a mild headache?"],
+         "answer": ["Give ibuprofen (Advil, Motrin), aspirin, or acetaminophen (Tylenol) for pain. Avoid ibuprofen and other NSAIDs if the person has heart failure or kidney failure. Do not give aspirin to a child under age 18."]
+         
+        },
+
+        {"tags": "Cold",
+              "question": ["How do you treat a Cold?", "what to do if i get a mild Cold?", "Which medicine to take if I have a Cold?", "How to cure Cold?"],
+              "answer": ["1)Keeping hydrated is absolutely vital to help 'flush' out the cold, as well as to break down congestion and keep your throat lubricated. 2)Vitamin C is extremely helpful when fighting infection, so at the first sign of a cold be sure to increase your intake by eating plenty of berries, citrus fruits, papayas, broccoli and red peppers which will help keep you protected. 3)When it comes to combating a cold,Vitamin D is essential in helping to regulate immune response."]
+              
+              },
+        
+        {"tags": "Rash",
+              "question": ["How do you treat Rashes?", "what to do if i get a Rash?", "Which medicine to take if I have a Rash?", "How to cure Rash?"],
+              "answer": ["1)Olive oil helps in healing and promotes skin renewal given it is packed with vitamin E and antioxidants. It also soothes the skin and reduces itching. 2)Baking soda is useful in drying skin rashes as also in relieving itching and inflammation. 3)Aloe Vera,Thanks to its antibacterial, antifungal, anti-inflammatory and emollient properties, aloe vera is excellent for treating a number of skin ailments including rashes as also soothing the skin."]
+              
+              },
+        
+        {"tags": "snake bite",
+              "question": ["How do you treat a snake bite?", "what to do if i get a snake bite?", "Which medicine to take if I get a snake bite?", "How to cure snake bite?", "i got bit by a snake"],
+              "answer": ["While waiting for medical help: 1)Move the person beyond striking distance of the snake. 2)Have the person lie down with wound below the heart. 3)Keep the person calm and at rest, remaining as still as possible to keep venom from spreading. 4)Cover the wound with loose, sterile bandage. 5)Remove any jewelry from the area that was bitten. 6)Remove shoes if the leg or foot was bitten."]
+              
+              },
+
+        {"tags": "animal bite",
+              "question": ["How do you treat a animal bite?", "How do you treat a monkey bite?","How do you treat a dog bite?", "what to do if i get a animal bite?", "Which medicine to take if I get a monekey bite?", "How to cure dog bite?", "i got bit by a dog"],
+              "answer": ["1)Wash the wound with soap and warm water. 2)Gently press a clean cloth over the wound to stop the flow of blood. 3)Apply an antibacterial ointment to the wound. 4)Cover with a sterile bandage. 5)Watch for signs of infection. 6)Seek help if you suspect infection or possible exposure to rabies, or if the wound is severe."]
+              
+              },
+
+        {"tags": "Drowning",
+              "question": ["What to do if someone is Drowning?", "what to do if someone drowned?", "What steps to take if i see a drowning person?", "How to help a drowning person?"],
+              "answer": ["1)Place your ear next to the person's mouth and nose. Do you feel air on your cheek? 2)Look to see if the person's chest is moving.If the Person is Not Breathing, Check Pulse. 3)Check the person's pulse for 10 seconds.If There is No Pulse, Start CPR."]
+              
+              },
+
+          {"tags": "CPR",
+              "question": ["How to give CPR??", "what to do in a CPR?", "What steps to take in a CPR??", "How to help a drowning person in CPR?"],
+              "answer": ["1)For an adult or child, place the heel of one hand on the center of the chest at the nipple line. You can also push with one hand on top of the other. For an infant, place two fingers on the breastbone. 2)For an adult or child, press down at least 2 inches. Make sure not to press on ribs. For an infant, press down about 1 and 1/2 inches. Make sure not to press on the end of the breastbone. 3)Do chest compressions only, at the rate of 100-120 per minute or more. Let the chest rise completely between pushes. 4)Check to see if the person has started breathing."]
+              
+              },
+
+        {"tags": "Fracture",
+              "question": ["How do you treat a Fracture?", "what to do if i get a Fracture?", "Which medicine to take if I have a Fracture?", "How to cure a Fracture?"],
+              "answer": ["1)Stop any bleeding. Apply pressure to the wound with a sterile bandage, a clean cloth or a clean piece of clothing. 2)Immobilize the injured area. Don't try to realign the bone or push a bone that's sticking out back in. If you've been trained in how to splint and professional help isn't readily available, apply a splint to the area above and below the fracture sites. Padding the splints can help reduce discomfort. 3)Apply ice packs to limit swelling and help relieve pain. Don't apply ice directly to the skin. Wrap the ice in a towel, piece of cloth or some other material. 4)Treat for shock. If the person feels faint or is breathing in short, rapid breaths, lay the person down with the head slightly lower than the trunk and, if possible, elevate the legs."]
+              
+              }
+  ]
+     
+  
+}
